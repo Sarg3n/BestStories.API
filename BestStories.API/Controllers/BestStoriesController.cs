@@ -65,7 +65,7 @@ namespace BestStories.API.Controllers
                         jo.Property("time").Value = dateTimeOffset;
                     }
 
-                    jsonStories += jo.ToString();
+                    jsonStories += jo.ToString()+",";
 
                 }
                 jsonStories += "]";
