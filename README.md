@@ -12,5 +12,8 @@ Enhancements or changes you would make, given the time
  -> Also thought that using that "for" approach is consuming much time in order to make the necessary changes to the output array, however... it was what I initially did and 
  I got stuck with it till the end. Also at Bold interview it was told that was needed some knowledge working with JToken so ... that's what I used.
  -> Also instead of using WebRequest I could use a better service with newer HttpClient.
+ -> The HttpGet also could be made with a received RequestDataModel Object like public async Task<string> GetTopStoriesIds([FromBody] Models.GetTopStories.ResquestDataModel.Root requestData){...}
+ 
+ 
  
 With no further issues, with best regards, Nuno.
